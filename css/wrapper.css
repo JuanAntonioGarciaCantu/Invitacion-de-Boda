@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;500;600;700&family=Lobster&family=MonteCarlo&family=Roboto:ital,wght@0,100;0,400;1,300&family=Style+Script&display=swap');
+
+
+/*-- Wrapper --*/
+.wrapper {
+    width: 100%;
+    background-color: rgb(255,255,255);   
+}
+
+/*-- Wrapper banner --*/
+.wrapper .banner {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.wrapper .banner .banner-img img {
+    width: 100%;
+    height: 100vh;
+}
+
+.wrapper .banner .contenido-banner {
+    position: absolute;
+    top: 8%;
+    left: 3%;
+    text-align: center;
+}
+
+.wrapper .banner .contenido-banner span {
+    display: block;
+    font-size: 60px;
+    color: #fff;
+    font-family: 'MonteCarlo', cursive;
+    text-shadow: 6px 6px 3px #000;
+}
+
+.wrapper .banner .contenido-banner span:nth-child(1) {
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    text-shadow: none;
+    margin-bottom: 15px;
+}
+
+.wrapper .banner .contenido-banner span:nth-child(3) {
+    margin-top: -40px;
+}
+
+.wrapper .banner .contenido-banner span:nth-child(4) {
+    margin-top: -10px;
+}
+
+.wrapper .banner .contenido-banner img {
+    margin-top: 20px;    
+}
+
+.wrapper .banner .contenido-banner .btn-asistencia {
+    width: 50%;
+    margin: auto;
+    display: block;
+    margin-top: 30px;
+    padding: 10px 0;
+    color: #000;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 400;
+    background-color: rgb(238, 118, 124);
+    box-shadow: 5px 5px 5px #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.wrapper .banner .contenido-banner .btn-asistencia:hover {
+    background-color: rgb(221, 102, 108);
+}
+
+/* Wrapper historia */
+.wrapper .historia {
+    position: relative;
+}
+
+.wrapper .historia .contenedor-historia .novios {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.wrapper .historia .contenedor-historia .novios img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.wrapper .historia .contenedor-historia .historia-txt {
+    text-align: justify;
+    font-family: 'Assistant', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+
+/* Wrapper galeria */
+
+.wrapper .galeria .coleccion {
+    width: 100%;
+}
+
+.wrapper .galeria .coleccion .row {
+    display: flex;
+}
+
+.wrapper .galeria .coleccion .row .col {
+    padding: 5px;
+}
+
+.wrapper .galeria .coleccion .row .col img {
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* Wrapper recepcion */
+.wrapper .ubicacion .conetenedor-ubicacion {
+    display: flex;
+    padding-top: 20px;
+}
+
+.wrapper .ubicacion .conetenedor-ubicacion .ubicacion-iglesia ,
+.wrapper .ubicacion .conetenedor-ubicacion .ubicacion-salon {
+    padding: 0 30px;
+    width: 100%;
+    margin: auto;
+}
+
+.wrapper .ubicacion .conetenedor-ubicacion {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.wrapper .ubicacion .conetenedor-ubicacion h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.wrapper .ubicacion .conetenedor-ubicacion img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.wrapper .ubicacion .conetenedor-ubicacion .fecha {
+    padding-bottom: 20px;
+}
+
+.wrapper .ubicacion .conetenedor-ubicacion .mapa {
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.wrapper .ubicacion .conetenedor-ubicacion .mapa iframe {
+    width: 100%;
+    height: 200px;
+}
+
+/* Wrapper asistencia */
+.wrapper .asistencia .contenedor-formulario form {
+    width: 70%;
+    margin: auto;
+}
+
+.wrapper .asistencia .contenedor-formulario form input {
+    width: 100%;
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Assistant', sans-serif; 
+    border: none;
+    border-bottom: 3px solid rgba(0, 0, 0, .5);
+    outline: none;
+}
+
+.wrapper .asistencia .contenedor-formulario form textarea {
+    width: 100%;
+    margin: 20px 0;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 150px;
+    min-height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Assistant', sans-serif; 
+    border: 3px solid rgba(0, 0, 0, .5);
+    outline-style: none;
+    border-radius: 5px;
+}
+
+.wrapper .asistencia .contenedor-formulario form button {
+    width: 20%;
+    position: relative;
+    left: 40%;
+    background-color: rgb(221, 102, 108);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Assistant', sans-serif; 
+    box-shadow: 3px 3px 10px #000;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}

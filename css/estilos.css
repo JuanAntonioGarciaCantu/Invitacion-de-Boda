@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;500;600;700&family=Lobster&family=MonteCarlo&family=Roboto:ital,wght@0,100;0,400;1,300&family=Style+Script&display=swap');
+@import url('header.css');
+@import url('wrapper.css');
+@import url('footer.css');
+
+/*-- Estilos generales --*/
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contenedor {
+    width: 80%;
+    margin: auto;
+}
+
+.seccion {
+    padding: 40px 0;
+    scroll-margin-top: 60px;
+}
+
+.txt-subt {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 28px;
+    border-bottom: 4px solid #dd666c;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.txt-subt-seccion {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+

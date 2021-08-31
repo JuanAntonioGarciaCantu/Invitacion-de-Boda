@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;500;600;700&family=Lobster&family=MonteCarlo&family=Roboto:ital,wght@0,100;0,400;1,300&family=Style+Script&display=swap');
+
+/*-- Header --*/
+header {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    z-index: 1000;
+}
+
+header .contenedor-header {
+    width: 95%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+header .contenedor-header nav ul li {
+    display: inline-block;
+    padding: 10px 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+header .contenedor-header nav ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header .contenedor-header nav ul li a:hover {
+    border-bottom: 3px solid rgb(221, 102, 108);
+}
+
+/* Estilos del header al hacer Scroll */
+
+.scroll {
+    color: rgb(0,0,0);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 1px 10px rgb(0, 0, 0);
+} 
+
+
+.scroll .contenedor-header {
+    justify-content: center;
+}
+
+.scroll .contenedor-header nav ul li a {
+    color: rgb(0, 0, 0);    
+}
+
+.scroll .contenedor-header nav ul li a:hover {
+    border: none;    
+}
+
+.scroll .contenedor-header nav ul li:hover {
+    border-radius: 5px;
+    background-color: rgb(221, 102, 108);
+}
